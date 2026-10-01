@@ -20,10 +20,10 @@ All commands run from the repo root unless a step says otherwise. Times are roug
 curl -LsSf https://astral.sh/uv/install.sh | sh && source $HOME/.local/bin/env
 ```
 
-**Step 1. Clone (1 min).** The repo owner gives you `<REPO_URL>`.
+**Step 1. Clone (1 min).** The repo is `git@github.com:fzwSSH/xxxxx.git` (HTTPS: `https://github.com/fzwSSH/xxxxx.git`); you need collaborator access.
 
 ```bash
-git clone <REPO_URL> h20_bundle && cd h20_bundle
+git clone git@github.com:fzwSSH/xxxxx.git h20_bundle && cd h20_bundle
 ```
 
 **Step 2. Check the GPU (1 min).**
